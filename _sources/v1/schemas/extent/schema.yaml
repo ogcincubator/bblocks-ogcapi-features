@@ -62,9 +62,12 @@ properties:
           minItems: 2
           maxItems: 2
           items:
-            type: string
-            format: date-time
-            nullable: true
+            anyOf:
+            # note supports both OAS 3 and JSON schema null options
+             - type: string
+               format: date-time
+               nullable: true
+             - type: "null"
           example:
             - '2011-11-11T12:22:11Z'
             - null

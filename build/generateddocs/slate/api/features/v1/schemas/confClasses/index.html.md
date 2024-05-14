@@ -26,7 +26,7 @@ This building block corresponds to the schema for an OGC API Features confClasse
 </p>
 
 <aside class="success">
-This building block is <strong><a href="https://github.com/ogcincubator/bblocks-ogcapi-features/blob/master/build/tests/api/features/v1/schemas/confClasses/" target="_blank">valid</a></strong>
+This building block is <strong><a href="https://github.com/rob-metalinkage/bblocks-ogcapi-features/blob/master/build/tests/api/features/v1/schemas/confClasses/" target="_blank">valid</a></strong>
 </aside>
 
 # Examples
@@ -50,8 +50,8 @@ This building block is <strong><a href="https://github.com/ogcincubator/bblocks-
 
 <blockquote class="lang-specific json">
   <p class="example-links">
-    <a target="_blank" href="https://ogcincubator.github.io/bblocks-ogcapi-features/build/tests/api/features/v1/schemas/confClasses/example_1_1.json">Open in new window</a>
-    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-ogcapi-features%2Fbuild%2Ftests%2Fapi%2Ffeatures%2Fv1%2Fschemas%2FconfClasses%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
+    <a target="_blank" href="https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/tests/api/features/v1/schemas/confClasses/example_1_1.json">Open in new window</a>
+    <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=json&amp;dataUrl=https%3A%2F%2Frob-metalinkage.github.io%2Fbblocks-ogcapi-features%2Fbuild%2Ftests%2Fapi%2Ffeatures%2Fv1%2Fschemas%2FconfClasses%2Fexample_1_1.json&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on JSON Viewer</a></p>
 </blockquote>
 
 
@@ -71,12 +71,12 @@ properties:
 
 ```
 
-> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Fogcincubator.github.io%2Fbblocks-ogcapi-features%2Fbuild%2Fannotated%2Fapi%2Ffeatures%2Fv1%2Fschemas%2FconfClasses%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
+> <a target="_blank" href="https://avillar.github.io/TreedocViewer/?dataParser=yaml&amp;dataUrl=https%3A%2F%2Frob-metalinkage.github.io%2Fbblocks-ogcapi-features%2Fbuild%2Fannotated%2Fapi%2Ffeatures%2Fv1%2Fschemas%2FconfClasses%2Fschema.yaml&amp;expand=2&amp;option=%7B%22showTable%22%3A+false%7D">View on YAML Viewer</a>
 
 Links to the schema:
 
-* YAML version: <a href="https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.yaml" target="_blank">https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.yaml</a>
-* JSON version: <a href="https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.json" target="_blank">https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.json</a>
+* YAML version: <a href="https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.yaml" target="_blank">https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.yaml</a>
+* JSON version: <a href="https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.json" target="_blank">https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.json</a>
 
 # References
 
@@ -86,7 +86,7 @@ Links to the schema:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: <a href="https://github.com/ogcincubator/bblocks-ogcapi-features" target="_blank">https://github.com/ogcincubator/bblocks-ogcapi-features</a>
+* URL: <a href="https://github.com/rob-metalinkage/bblocks-ogcapi-features" target="_blank">https://github.com/rob-metalinkage/bblocks-ogcapi-features</a>
 * Path:
-<code><a href="https://github.com/ogcincubator/bblocks-ogcapi-features/blob/HEAD/_sources/v1/schemas/confClasses" target="_blank">_sources/v1/schemas/confClasses</a></code>
+<code><a href="https://github.com/rob-metalinkage/bblocks-ogcapi-features/blob/HEAD/_sources/v1/schemas/confClasses" target="_blank">_sources/v1/schemas/confClasses</a></code>
 

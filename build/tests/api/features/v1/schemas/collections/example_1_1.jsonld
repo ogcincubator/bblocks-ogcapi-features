@@ -192,5 +192,5 @@
       ]
     }
   ],
-  "@context": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collections/context.jsonld"
+  "@context": "https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collections/context.jsonld"
 }

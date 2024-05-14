@@ -5,12 +5,12 @@
       "type": "string",
       "format": "date-time",
       "example": "2017-08-17T08:05:32Z",
-      "x-schema-source": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/timeStamp/schema-oas3.0.json"
+      "x-schema-source": "https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/timeStamp/schema-oas3.0.json"
     }
   },
   "allOf": [
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/timeStamp/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_api_features_v1_schemas_timeStamp_schema.json"
+      "$ref": "https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/timeStamp/schema-oas3.0.json#/x-defs/_github_workspace_build_annotated_api_features_v1_schemas_timeStamp_schema.json"
     }
   ]
 }

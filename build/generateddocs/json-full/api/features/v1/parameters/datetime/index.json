@@ -8,7 +8,7 @@
   "itemClass": "parameter",
   "register": "ogcapi-features",
   "version": "0.1",
-  "dateOfLastChange": "2024-05-07",
+  "dateOfLastChange": "2024-05-14",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -19,13 +19,13 @@
     "ogcapi-features",
     "features"
   ],
-  "openAPIDocument": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/parameters/datetime/openapi.yaml",
+  "openAPIDocument": "https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/parameters/datetime/openapi.yaml",
   "abstract": "This building block corresponds to the schema for an OGC API Features datetime",
   "shaclRules": {},
   "sourceOpenAPIDocument": "https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/parameters/datetime.yaml",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-ogcapi-features/_sources/v1/parameters/datetime/",
+  "sourceFiles": "https://rob-metalinkage.github.io/bblocks-ogcapi-features/_sources/v1/parameters/datetime/",
   "validationPassed": true,
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/ogcincubator/bblocks-ogcapi-features",
+  "gitRepository": "https://github.com/rob-metalinkage/bblocks-ogcapi-features",
   "gitPath": "_sources/v1/parameters/datetime"
 }
