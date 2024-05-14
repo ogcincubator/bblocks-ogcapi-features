@@ -28,7 +28,7 @@ x-defs:
           bbox:
             type: array
             items:
-              $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
+              $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
           crs:
             description: 'Coordinate reference system of the coordinates in the spatial
               extent
@@ -89,9 +89,11 @@ x-defs:
               minItems: 2
               maxItems: 2
               items:
-                type: string
-                format: date-time
-                nullable: true
+                anyOf:
+                - type: string
+                  format: date-time
+                  nullable: true
+                - nullable: true
               example:
               - '2011-11-11T12:22:11Z'
               - null
@@ -113,7 +115,7 @@ x-defs:
             enum:
             - http://www.opengis.net/def/uom/ISO-8601/0/Gregorian
             default: http://www.opengis.net/def/uom/ISO-8601/0/Gregorian
-    x-schema-source: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema-oas3.0.yaml
+    x-schema-source: https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema-oas3.0.yaml
   ogc.geo.common.data_types.bounding_box:
     type: array
     oneOf:
@@ -125,4 +127,4 @@ x-defs:
       type: number
     x-schema-source: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/common/data_types/bounding_box/schema.yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_features_v1_schemas_extent_schema.yaml
+- $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema-oas3.0.yaml#/x-defs/_github_workspace_build_annotated_api_features_v1_schemas_extent_schema.yaml

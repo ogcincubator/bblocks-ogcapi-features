@@ -137,7 +137,7 @@ This building block corresponds to the schema for an OGC API Features collection
       "href": "http://www.acme.com/3.0/wfs/collections/roadl_1m/schema"
     }
   ],
-  "@context": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld"
+  "@context": "https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld"
 }
 ```
 
@@ -182,7 +182,7 @@ properties:
       rel: describedby
       type: text/html
   extent:
-    $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml
+    $ref: https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml
   itemType:
     description: indicator about the type of the items in the collection (the default
       value is 'feature').
@@ -203,8 +203,8 @@ properties:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.yaml)
+* YAML version: [schema.yaml](https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.json)
+* JSON version: [schema.json](https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.yaml)
 
 
 # JSON-LD Context
@@ -236,7 +236,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld)
+[context.jsonld](https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld)
 
 ## Sources
 
@@ -246,6 +246,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-ogcapi-features](https://github.com/ogcincubator/bblocks-ogcapi-features)
+* URL: [https://github.com/rob-metalinkage/bblocks-ogcapi-features](https://github.com/rob-metalinkage/bblocks-ogcapi-features)
 * Path: `_sources/v1/schemas/collection`
 

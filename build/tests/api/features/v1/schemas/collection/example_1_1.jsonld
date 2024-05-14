@@ -61,5 +61,5 @@
       "href": "http://www.acme.com/3.0/wfs/collections/roadl_1m/schema"
     }
   ],
-  "@context": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld"
+  "@context": "https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld"
 }

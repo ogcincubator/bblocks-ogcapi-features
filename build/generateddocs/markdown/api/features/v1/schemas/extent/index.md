@@ -98,9 +98,11 @@ properties:
           minItems: 2
           maxItems: 2
           items:
-            type: string
-            format: date-time
-            nullable: true
+            anyOf:
+            - type: string
+              format: date-time
+              nullable: true
+            - type: 'null'
           example:
           - '2011-11-11T12:22:11Z'
           - null
@@ -125,8 +127,8 @@ properties:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml)
+* YAML version: [schema.yaml](https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.json)
+* JSON version: [schema.json](https://rob-metalinkage.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml)
 
 ## Sources
 
@@ -136,6 +138,6 @@ Links to the schema:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-ogcapi-features](https://github.com/ogcincubator/bblocks-ogcapi-features)
+* URL: [https://github.com/rob-metalinkage/bblocks-ogcapi-features](https://github.com/rob-metalinkage/bblocks-ogcapi-features)
 * Path: `_sources/v1/schemas/extent`
 

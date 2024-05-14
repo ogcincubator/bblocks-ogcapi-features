@@ -36,7 +36,7 @@ This building block is <strong>valid</strong>
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: <a href="https://github.com/ogcincubator/bblocks-ogcapi-features" target="_blank">https://github.com/ogcincubator/bblocks-ogcapi-features</a>
+* URL: <a href="https://github.com/rob-metalinkage/bblocks-ogcapi-features" target="_blank">https://github.com/rob-metalinkage/bblocks-ogcapi-features</a>
 * Path:
-<code><a href="https://github.com/ogcincubator/bblocks-ogcapi-features/blob/HEAD/_sources/v1/parameters/datetime" target="_blank">_sources/v1/parameters/datetime</a></code>
+<code><a href="https://github.com/rob-metalinkage/bblocks-ogcapi-features/blob/HEAD/_sources/v1/parameters/datetime" target="_blank">_sources/v1/parameters/datetime</a></code>
 
