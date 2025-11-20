@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.features.v1.schemas.numberReturned - Schema for numberReturned",
   "bblockName": "Schema for numberReturned",
   "bblockId": "ogc.api.features.v1.schemas.numberReturned",
-  "generated": "2025-11-20T10:26:27.503134+00:00",
+  "generated": "2025-11-20T21:57:58.056688+00:00",
   "result": true,
   "items": [],
   "globalErrors": {},
