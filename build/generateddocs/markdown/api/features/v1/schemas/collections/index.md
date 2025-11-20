@@ -196,6 +196,7 @@ This building block corresponds to the schema for an OGC API Features collection
 #### jsonld
 ```jsonld
 {
+  "@context": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collections/context.jsonld",
   "links": [
     {
       "rel": "self",
@@ -388,8 +389,7 @@ This building block corresponds to the schema for an OGC API Features collection
         }
       ]
     }
-  ],
-  "@context": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collections/context.jsonld"
+  ]
 }
 ```
 

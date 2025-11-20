@@ -8,7 +8,7 @@
   "itemClass": "schema",
   "register": "ogcapi-features",
   "version": "0.1",
-  "dateOfLastChange": "2024-03-22",
+  "dateOfLastChange": "2024-06-06",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -24,9 +24,11 @@
     "application/json": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/schema.json"
   },
   "abstract": "This building block corresponds to the schema for an OGC API Features confClasses",
-  "shaclRules": {},
+  "shaclShapes": {},
+  "remoteCacheDir": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/confClasses/remote_cache/",
   "sourceSchema": "https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/confClasses.yaml",
   "sourceFiles": "https://ogcincubator.github.io/bblocks-ogcapi-features/_sources/v1/schemas/confClasses/",
+  "rdfData": [],
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-ogcapi-features/blob/master/build/tests/api/features/v1/schemas/confClasses/",
   "examples": [

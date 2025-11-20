@@ -75,6 +75,7 @@ This building block corresponds to the schema for an OGC API Features collection
 #### jsonld
 ```jsonld
 {
+  "@context": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld",
   "id": "roadl_1m",
   "title": "Roads",
   "extent": {
@@ -136,8 +137,7 @@ This building block corresponds to the schema for an OGC API Features collection
       "type": "application/xml",
       "href": "http://www.acme.com/3.0/wfs/collections/roadl_1m/schema"
     }
-  ],
-  "@context": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld"
+  ]
 }
 ```
 

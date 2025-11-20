@@ -1,0 +1,14 @@
+{
+  "title": "Validation report for ogc.api.features.v1.parameters.limit - limit parameter",
+  "bblockName": "limit parameter",
+  "bblockId": "ogc.api.features.v1.parameters.limit",
+  "generated": "2025-11-20T10:26:27.506986+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}
