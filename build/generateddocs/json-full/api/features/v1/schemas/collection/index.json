@@ -8,7 +8,7 @@
   "itemClass": "schema",
   "register": "ogcapi-features",
   "version": "0.1",
-  "dateOfLastChange": "2025-11-20",
+  "dateOfLastChange": "2026-01-13",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -22,15 +22,16 @@
   "abstract": "This building block corresponds to the schema for an OGC API Features collection",
   "shaclShapes": {},
   "dependsOn": [
-    "ogc.api.features.v1.schemas.extent",
-    "ogc.ogc-utils.json-link"
+    "ogc.ogc-utils.json-link",
+    "ogc.api.features.v1.schemas.extent"
   ],
+  "ldContext": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld",
   "schema": {
     "application/yaml": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.yaml",
     "application/json": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/schema.json"
   },
   "sourceSchema": "https://ogcincubator.github.io/bblocks-ogcapi-features/_sources/v1/schemas/collection/schema.yaml",
-  "ldContext": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/collection/context.jsonld",
+  "sourceLdContext": "https://ogcincubator.github.io/bblocks-ogcapi-features/_sources/v1/schemas/collection/context.jsonld",
   "sourceFiles": "https://ogcincubator.github.io/bblocks-ogcapi-features/_sources/v1/schemas/collection/",
   "rdfData": [],
   "validationPassed": true,
@@ -52,13 +53,13 @@
         },
         {
           "language": "ttl",
-          "code": "@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n[] rdfs:label \"Roads\" .\n\n",
+          "code": "@prefix dct: <http://purl.org/dc/terms/> .\n@prefix ns1: <http://www.iana.org/assignments/> .\n@prefix oa: <http://www.w3.org/ns/oa#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n\n[] rdfs:seeAlso [ rdfs:label \"Roads\" ;\n            dct:type \"text/html\" ;\n            ns1:relation <http://www.iana.org/assignments/relation/items> ;\n            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=text%2Fhtml> ],\n        [ rdfs:label \"Roads\" ;\n            dct:type \"application/geo+json\" ;\n            ns1:relation <http://www.iana.org/assignments/relation/items> ;\n            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=application%2Fgeo%2Bjson> ],\n        [ rdfs:label \"This document\" ;\n            dct:type \"application/json\" ;\n            ns1:relation <http://www.iana.org/assignments/relation/self> ;\n            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=application%2Fjson> ],\n        [ rdfs:label \"Roads\" ;\n            dct:type \"application/gml+xml;version=3.2;profile=\\\"http://www.opengis.net/def/profile/ogc/2.0/gml-sf0\\\"\" ;\n            ns1:relation <http://www.iana.org/assignments/relation/items> ;\n            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=application%2Fgml%2Bxml%3B%20version%3D3.2%3B%20profile%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fprofile%2Fogc%2F2.0%2Fgml-sf0%22> ],\n        [ rdfs:label \"This document as HTML\" ;\n            dct:type \"text/html\" ;\n            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;\n            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=text%2Fhtml> ],\n        [ rdfs:label \"Schema for Roads\" ;\n            dct:type \"application/xml\" ;\n            ns1:relation <http://www.iana.org/assignments/relation/describedby> ;\n            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/schema> ] .\n\n",
           "url": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/tests/api/features/v1/schemas/collection/example_1_1.ttl"
         }
       ]
     }
   ],
-  "annotatedSchema": "$comment: Adapted from https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collection.yaml\ntype: object\nrequired:\n- id\n- links\nproperties:\n  id:\n    description: identifier of the collection used, for example, in URIs\n    type: string\n    example: address\n  title:\n    description: human readable title of the collection\n    type: string\n    example: address\n  description:\n    description: a description of the features in the collection\n    type: string\n    example: An address.\n  links:\n    type: array\n    items:\n      $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml\n    example:\n    - href: http://data.example.com/buildings\n      rel: item\n    - href: http://example.com/concepts/buildings.html\n      rel: describedby\n      type: text/html\n  extent:\n    $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml\n  itemType:\n    description: indicator about the type of the items in the collection (the default\n      value is 'feature').\n    type: string\n    default: feature\n  crs:\n    description: the list of coordinate reference systems supported by the service\n    type: array\n    items:\n      type: string\n    default:\n    - http://www.opengis.net/def/crs/OGC/1.3/CRS84\n    example:\n    - http://www.opengis.net/def/crs/OGC/1.3/CRS84\n    - http://www.opengis.net/def/crs/EPSG/0/4326\n",
+  "annotatedSchema": "$comment: Adapted from https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/collection.yaml\ntype: object\nrequired:\n- id\n- links\nproperties:\n  id:\n    description: identifier of the collection used, for example, in URIs\n    type: string\n    example: address\n  title:\n    description: human readable title of the collection\n    type: string\n    example: address\n  description:\n    description: a description of the features in the collection\n    type: string\n    example: An address.\n  links:\n    type: array\n    items:\n      $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml\n    example:\n    - href: http://data.example.com/buildings\n      rel: item\n    - href: http://example.com/concepts/buildings.html\n      rel: describedby\n      type: text/html\n    x-jsonld-id: http://www.w3.org/2000/01/rdf-schema#seeAlso\n  extent:\n    $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml\n  itemType:\n    description: indicator about the type of the items in the collection (the default\n      value is 'feature').\n    type: string\n    default: feature\n  crs:\n    description: the list of coordinate reference systems supported by the service\n    type: array\n    items:\n      type: string\n    default:\n    - http://www.opengis.net/def/crs/OGC/1.3/CRS84\n    example:\n    - http://www.opengis.net/def/crs/OGC/1.3/CRS84\n    - http://www.opengis.net/def/crs/EPSG/0/4326\nx-jsonld-prefixes:\n  rdfs: http://www.w3.org/2000/01/rdf-schema#\n",
   "gitRepository": "https://github.com/ogcincubator/bblocks-ogcapi-features",
   "gitPath": "_sources/v1/schemas/collection"
 }

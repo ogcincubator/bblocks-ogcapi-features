@@ -1,44 +1,16 @@
 {
   "summary": {
     "total": 14,
-    "passed": 13,
-    "failed": 1,
-    "result": false
+    "passed": 14,
+    "failed": 0,
+    "result": true
   },
   "bblocks": {
-    "ogc.api.features.v1.parameters.limit": {
-      "title": "Validation report for ogc.api.features.v1.parameters.limit - limit parameter",
-      "bblockName": "limit parameter",
-      "bblockId": "ogc.api.features.v1.parameters.limit",
-      "generated": "2025-11-20T21:57:58.027349+00:00",
-      "result": true,
-      "items": [],
-      "globalErrors": {},
-      "counts": {
-        "total": 0,
-        "passed": 0,
-        "failed": 0
-      }
-    },
-    "ogc.api.features.v1.schemas.exception": {
-      "title": "Validation report for ogc.api.features.v1.schemas.exception - Schema for exception",
-      "bblockName": "Schema for exception",
-      "bblockId": "ogc.api.features.v1.schemas.exception",
-      "generated": "2025-11-20T21:57:58.033595+00:00",
-      "result": true,
-      "items": [],
-      "globalErrors": {},
-      "counts": {
-        "total": 0,
-        "passed": 0,
-        "failed": 0
-      }
-    },
     "ogc.api.features.v1.parameters.datetime": {
       "title": "Validation report for ogc.api.features.v1.parameters.datetime - datetime parameter",
       "bblockName": "datetime parameter",
       "bblockId": "ogc.api.features.v1.parameters.datetime",
-      "generated": "2025-11-20T21:57:58.037287+00:00",
+      "generated": "2026-01-13T22:39:01.990260+00:00",
       "result": true,
       "items": [],
       "globalErrors": {},
@@ -48,11 +20,39 @@
         "failed": 0
       }
     },
-    "ogc.api.features.v1.parameters.featureId": {
-      "title": "Validation report for ogc.api.features.v1.parameters.featureId - featureId parameter",
-      "bblockName": "featureId parameter",
-      "bblockId": "ogc.api.features.v1.parameters.featureId",
-      "generated": "2025-11-20T21:57:58.040715+00:00",
+    "ogc.api.features.v1.parameters.limit": {
+      "title": "Validation report for ogc.api.features.v1.parameters.limit - limit parameter",
+      "bblockName": "limit parameter",
+      "bblockId": "ogc.api.features.v1.parameters.limit",
+      "generated": "2026-01-13T22:39:01.994371+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "ogc.api.features.v1.schemas.numberMatched": {
+      "title": "Validation report for ogc.api.features.v1.schemas.numberMatched - Schema for numberMatched",
+      "bblockName": "Schema for numberMatched",
+      "bblockId": "ogc.api.features.v1.schemas.numberMatched",
+      "generated": "2026-01-13T22:39:01.999307+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "ogc.api.features.v1.parameters.collectionId": {
+      "title": "Validation report for ogc.api.features.v1.parameters.collectionId - collectionId parameter",
+      "bblockName": "collectionId parameter",
+      "bblockId": "ogc.api.features.v1.parameters.collectionId",
+      "generated": "2026-01-13T22:39:02.002882+00:00",
       "result": true,
       "items": [],
       "globalErrors": {},
@@ -66,7 +66,7 @@
       "title": "Validation report for ogc.api.features.v1.schemas.confClasses - Schema for confClasses",
       "bblockName": "Schema for confClasses",
       "bblockId": "ogc.api.features.v1.schemas.confClasses",
-      "generated": "2025-11-20T21:57:58.046946+00:00",
+      "generated": "2026-01-13T22:39:02.009029+00:00",
       "result": true,
       "items": [
         {
@@ -117,7 +117,21 @@
       "title": "Validation report for ogc.api.features.v1.schemas.timeStamp - Schema for timeStamp",
       "bblockName": "Schema for timeStamp",
       "bblockId": "ogc.api.features.v1.schemas.timeStamp",
-      "generated": "2025-11-20T21:57:58.051788+00:00",
+      "generated": "2026-01-13T22:39:02.013809+00:00",
+      "result": true,
+      "items": [],
+      "globalErrors": {},
+      "counts": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0
+      }
+    },
+    "ogc.api.features.v1.schemas.exception": {
+      "title": "Validation report for ogc.api.features.v1.schemas.exception - Schema for exception",
+      "bblockName": "Schema for exception",
+      "bblockId": "ogc.api.features.v1.schemas.exception",
+      "generated": "2026-01-13T22:39:02.019085+00:00",
       "result": true,
       "items": [],
       "globalErrors": {},
@@ -131,7 +145,7 @@
       "title": "Validation report for ogc.api.features.v1.schemas.numberReturned - Schema for numberReturned",
       "bblockName": "Schema for numberReturned",
       "bblockId": "ogc.api.features.v1.schemas.numberReturned",
-      "generated": "2025-11-20T21:57:58.056688+00:00",
+      "generated": "2026-01-13T22:39:02.023531+00:00",
       "result": true,
       "items": [],
       "globalErrors": {},
@@ -141,25 +155,11 @@
         "failed": 0
       }
     },
-    "ogc.api.features.v1.parameters.collectionId": {
-      "title": "Validation report for ogc.api.features.v1.parameters.collectionId - collectionId parameter",
-      "bblockName": "collectionId parameter",
-      "bblockId": "ogc.api.features.v1.parameters.collectionId",
-      "generated": "2025-11-20T21:57:58.060278+00:00",
-      "result": true,
-      "items": [],
-      "globalErrors": {},
-      "counts": {
-        "total": 0,
-        "passed": 0,
-        "failed": 0
-      }
-    },
-    "ogc.api.features.v1.schemas.numberMatched": {
-      "title": "Validation report for ogc.api.features.v1.schemas.numberMatched - Schema for numberMatched",
-      "bblockName": "Schema for numberMatched",
-      "bblockId": "ogc.api.features.v1.schemas.numberMatched",
-      "generated": "2025-11-20T21:57:58.065155+00:00",
+    "ogc.api.features.v1.parameters.featureId": {
+      "title": "Validation report for ogc.api.features.v1.parameters.featureId - featureId parameter",
+      "bblockName": "featureId parameter",
+      "bblockId": "ogc.api.features.v1.parameters.featureId",
+      "generated": "2026-01-13T22:39:02.026843+00:00",
       "result": true,
       "items": [],
       "globalErrors": {},
@@ -173,7 +173,7 @@
       "title": "Validation report for ogc.api.features.v1.schemas.extent - Schema for extent",
       "bblockName": "Schema for extent",
       "bblockId": "ogc.api.features.v1.schemas.extent",
-      "generated": "2025-11-20T21:57:58.073082+00:00",
+      "generated": "2026-01-13T22:39:02.034302+00:00",
       "result": true,
       "items": [],
       "globalErrors": {},
@@ -187,7 +187,7 @@
       "title": "Validation report for ogc.api.features.v1.schemas.landingPage - Schema for landingPage",
       "bblockName": "Schema for landingPage",
       "bblockId": "ogc.api.features.v1.schemas.landingPage",
-      "generated": "2025-11-20T21:57:58.079519+00:00",
+      "generated": "2026-01-13T22:39:02.040411+00:00",
       "result": true,
       "items": [],
       "globalErrors": {},
@@ -201,7 +201,7 @@
       "title": "Validation report for ogc.api.features.v1.schemas.collection - Schema for collection",
       "bblockName": "Schema for collection",
       "bblockId": "ogc.api.features.v1.schemas.collection",
-      "generated": "2025-11-20T21:57:58.175592+00:00",
+      "generated": "2026-01-13T22:39:02.102150+00:00",
       "result": true,
       "items": [
         {
@@ -239,7 +239,7 @@
                   "op": "ttl-create",
                   "empty": false,
                   "filename": "example_1_1.ttl",
-                  "size": 1,
+                  "size": 30,
                   "isError": false,
                   "message": "Output Turtle example_1_1.ttl created"
                 }
@@ -271,8 +271,8 @@
       "title": "Validation report for ogc.api.features.v1.schemas.collections - Schema for collections",
       "bblockName": "Schema for collections",
       "bblockId": "ogc.api.features.v1.schemas.collections",
-      "generated": "2025-11-20T21:57:58.276145+00:00",
-      "result": false,
+      "generated": "2026-01-13T22:39:02.163450+00:00",
+      "result": true,
       "items": [
         {
           "source": {
@@ -285,7 +285,7 @@
             "language": "application/json",
             "sourceUrl": "https://github.com/opengeospatial/ogcapi-features/raw/master/core/examples/json/Collections.json"
           },
-          "result": false,
+          "result": true,
           "sections": [
             {
               "name": "FILES",
@@ -308,11 +308,11 @@
                 },
                 {
                   "op": "ttl-create",
-                  "empty": true,
+                  "empty": false,
                   "filename": "example_1_1.ttl",
-                  "size": 0,
-                  "isError": true,
-                  "message": "**Empty** output Turtle example_1_1.ttl created"
+                  "size": 15,
+                  "isError": false,
+                  "message": "Output Turtle example_1_1.ttl created"
                 }
               ]
             },
@@ -334,15 +334,15 @@
       "globalErrors": {},
       "counts": {
         "total": 1,
-        "passed": 0,
-        "failed": 1
+        "passed": 1,
+        "failed": 0
       }
     },
     "ogc.api.features.v1.api": {
       "title": "Validation report for ogc.api.features.v1.api - OGC API Features",
       "bblockName": "OGC API Features",
       "bblockId": "ogc.api.features.v1.api",
-      "generated": "2025-11-20T21:57:58.280377+00:00",
+      "generated": "2026-01-13T22:39:02.167859+00:00",
       "result": true,
       "items": [],
       "globalErrors": {},

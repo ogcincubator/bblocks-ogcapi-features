@@ -1,1 +1,18 @@
-# Empty Turtle file
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+[] rdfs:seeAlso [ rdfs:label "This document as XML" ;
+            dct:type "text/xml" ;
+            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections?f=text%2Fxml> ],
+        [ rdfs:label "This document" ;
+            dct:type "application/json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections?f=application%2Fjson> ],
+        [ rdfs:label "This document as HTML" ;
+            dct:type "text/html" ;
+            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections?f=text%2Fhtml> ] .
+

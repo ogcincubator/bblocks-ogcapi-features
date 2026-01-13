@@ -2,8 +2,8 @@
   "title": "Validation report for ogc.api.features.v1.schemas.collections - Schema for collections",
   "bblockName": "Schema for collections",
   "bblockId": "ogc.api.features.v1.schemas.collections",
-  "generated": "2025-11-20T21:57:58.276145+00:00",
-  "result": false,
+  "generated": "2026-01-13T22:39:02.163450+00:00",
+  "result": true,
   "items": [
     {
       "source": {
@@ -16,7 +16,7 @@
         "language": "application/json",
         "sourceUrl": "https://github.com/opengeospatial/ogcapi-features/raw/master/core/examples/json/Collections.json"
       },
-      "result": false,
+      "result": true,
       "sections": [
         {
           "name": "FILES",
@@ -39,11 +39,11 @@
             },
             {
               "op": "ttl-create",
-              "empty": true,
+              "empty": false,
               "filename": "example_1_1.ttl",
-              "size": 0,
-              "isError": true,
-              "message": "**Empty** output Turtle example_1_1.ttl created"
+              "size": 15,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
             }
           ]
         },
@@ -65,7 +65,7 @@
   "globalErrors": {},
   "counts": {
     "total": 1,
-    "passed": 0,
-    "failed": 1
+    "passed": 1,
+    "failed": 0
   }
 }

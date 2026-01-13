@@ -36,7 +36,8 @@
           "rel": "describedby",
           "type": "text/html"
         }
-      ]
+      ],
+      "x-jsonld-id": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "extent": {
       "$ref": "https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.json"
@@ -60,5 +61,8 @@
         "http://www.opengis.net/def/crs/EPSG/0/4326"
       ]
     }
+  },
+  "x-jsonld-prefixes": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
   }
 }

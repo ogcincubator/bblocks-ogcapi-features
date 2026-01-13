@@ -1,12 +1,10 @@
 Validation report for ogc.api.features.v1.schemas.collections - Schema for collections
-Generated 2025-11-20T21:57:58.276088+00:00
+Generated 2026-01-13T22:39:02.163395+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting
 Output JSON-LD example_1_1.jsonld created
-
-** Validation error **
-**Empty** output Turtle example_1_1.ttl created
+Output Turtle example_1_1.ttl created
 === End Files ===
 
 === JSON Schema ===

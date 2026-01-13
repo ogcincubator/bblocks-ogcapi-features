@@ -143,9 +143,35 @@ This building block corresponds to the schema for an OGC API Features collection
 
 #### ttl
 ```ttl
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-[] rdfs:label "Roads" .
+[] rdfs:seeAlso [ rdfs:label "Roads" ;
+            dct:type "text/html" ;
+            ns1:relation <http://www.iana.org/assignments/relation/items> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=text%2Fhtml> ],
+        [ rdfs:label "Roads" ;
+            dct:type "application/geo+json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/items> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=application%2Fgeo%2Bjson> ],
+        [ rdfs:label "This document" ;
+            dct:type "application/json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=application%2Fjson> ],
+        [ rdfs:label "Roads" ;
+            dct:type "application/gml+xml;version=3.2;profile=\"http://www.opengis.net/def/profile/ogc/2.0/gml-sf0\"" ;
+            ns1:relation <http://www.iana.org/assignments/relation/items> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=application%2Fgml%2Bxml%3B%20version%3D3.2%3B%20profile%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fprofile%2Fogc%2F2.0%2Fgml-sf0%22> ],
+        [ rdfs:label "This document as HTML" ;
+            dct:type "text/html" ;
+            ns1:relation <http://www.iana.org/assignments/relation/alternate> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/items?f=text%2Fhtml> ],
+        [ rdfs:label "Schema for Roads" ;
+            dct:type "application/xml" ;
+            ns1:relation <http://www.iana.org/assignments/relation/describedby> ;
+            oa:hasTarget <http://www.acme.com/3.0/wfs/collections/roadl_1m/schema> ] .
 
 
 ```
@@ -181,6 +207,7 @@ properties:
     - href: http://example.com/concepts/buildings.html
       rel: describedby
       type: text/html
+    x-jsonld-id: http://www.w3.org/2000/01/rdf-schema#seeAlso
   extent:
     $ref: https://ogcincubator.github.io/bblocks-ogcapi-features/build/annotated/api/features/v1/schemas/extent/schema.yaml
   itemType:
@@ -198,6 +225,8 @@ properties:
     example:
     - http://www.opengis.net/def/crs/OGC/1.3/CRS84
     - http://www.opengis.net/def/crs/EPSG/0/4326
+x-jsonld-prefixes:
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
 
 ```
 
@@ -212,23 +241,28 @@ Links to the schema:
 ```jsonld
 {
   "@context": {
-    "href": {
-      "@type": "@id",
-      "@id": "oa:hasTarget"
-    },
-    "rel": {
+    "links": {
       "@context": {
-        "@base": "http://www.iana.org/assignments/relation/"
+        "href": {
+          "@type": "@id",
+          "@id": "oa:hasTarget"
+        },
+        "rel": {
+          "@context": {
+            "@base": "http://www.iana.org/assignments/relation/"
+          },
+          "@id": "http://www.iana.org/assignments/relation",
+          "@type": "@id"
+        },
+        "type": "dct:type",
+        "hreflang": "dct:language",
+        "title": "rdfs:label",
+        "length": "dct:extent"
       },
-      "@id": "http://www.iana.org/assignments/relation",
-      "@type": "@id"
+      "@id": "rdfs:seeAlso"
     },
-    "type": "dct:type",
-    "hreflang": "dct:language",
-    "title": "rdfs:label",
-    "length": "dct:extent",
-    "oa": "http://www.w3.org/ns/oa#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "oa": "http://www.w3.org/ns/oa#",
     "dct": "http://purl.org/dc/terms/",
     "@version": 1.1
   }
